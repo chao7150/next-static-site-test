@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Heading {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-shadow: 2px 2px var(--primary-color);
+    letter-spacing: 4px;
+}
+
+.Hr {
+    margin-top: 8px;
+    border: none;
+    border-top: 1px dashed black;
+    width: 300px;
+}
+
+.Text {
+    margin-top: 16px;
+    font-size: 1.25rem;
+    color: var(--accent-color)
+}

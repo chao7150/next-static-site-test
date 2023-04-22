@@ -1,0 +1,43 @@
+.TvOnairDatetime {
+    --tvonriadatetime-primary-color: var(--primary-color);
+
+    display: flex;
+    gap: 16px;
+    padding: 12px;
+    border: 2px dashed var(--tvonriadatetime-primary-color);
+    border-radius: 16px;
+}
+
+.Channel {
+    min-width: 150px;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ChannelLogo {
+    display: inline-block;
+    transform: rotate(-2.5deg);
+    border-radius: 4px;
+    background-color: var(--tvonriadatetime-primary-color);
+    padding: 8px 12px;
+}
+
+.FirstEpisodeDateTime {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.Date {
+    vertical-align: middle;
+}
+
+.Time {
+    display: flex;
+    gap: 4px;
+}
